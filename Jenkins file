@@ -20,7 +20,12 @@ pipeline{
                                           steps{
                                                 echo 'Hello'
                                           }
-                          }
+                          }                
+                           stage ('four'){
+                                         steps{
+                                               echo 'Welcome to pipeline demo'
+                                               }
+                           }                    
                   }
           
 }          
